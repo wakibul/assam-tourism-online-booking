@@ -1,0 +1,9 @@
+exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Base 'atboouking' inconnue' in C:\wamp\www\assambooking\include\config.php:15
+Stack trace:
+#0 C:\wamp\www\assambooking\include\config.php(15): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp\www\assambooking\admin-login\login_check.php(48): connect_pdo->__construct()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Base 'atbookin2g' inconnue' in C:\wamp\www\assambooking\include\config.php:15
+Stack trace:
+#0 C:\wamp\www\assambooking\include\config.php(15): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp\www\assambooking\admin-login\login_check.php(48): connect_pdo->__construct()
+#2 {main}
